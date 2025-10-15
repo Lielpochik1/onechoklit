@@ -1,0 +1,17 @@
+body {
+    background-color:rgb(from rgb(172, 166, 166) r g b);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.main-container {
+    background-color: #ffff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
