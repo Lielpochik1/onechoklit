@@ -11,26 +11,83 @@
         <h2>Linoleja kalkulators</h2>
         <div class="calc-container"><!--kalkulators konteiners-->
             <div class="input-container"><!--ievades konteiners-->
-                <div classe="input-group">
+                <div class="input-group">
                     <label>Telpas platums (m) </label>
                     <input type="number" id="roomWidth" step="0.01">
                 </div>
-                <div classe="input-group">
+                <div class="input-group">
                     <label>Telpas garums (m) </label>
                     <input type="number" id="roomLength" step="0.01">
                 </div>
-                <div classe="input-group">
+                <div class="input-group">
                     <label>Linoleja platums (m) </label>
                     <input type="number" id="linoliumWidth" step="0.01">
                 </div>
-                <div classe="input-group">
+                <div class="input-group">
                     <label>Linoleja cena (eur/m2) </label>
                     <input type="number" id="linoliumPrice" step="0.01">
                 </div>
-            
+                <div class="button-group">
+                    <button>Aprekināt</button>
+                </div>
             </div><!--aizverošais ievad. konteiners-->
             <div class="result-conteiner"><!--rezultat konteiners-->
-                <h3>Rezultāts</h3>
+                <h3>Rezultāts</h3> 
+                <div class="result-row">
+                    <div class="output-grop">
+                        <label>Garums gareniski:</label>
+                        <input type="text" id="lenghtLong" readonly>
+                    
+                    </div>
+                    <div class="output-grop">
+                        <label>Šķērsām:</label>
+                        <input type="text" id="lenghtCross" readonly>
+                    
+                    </div>
+                </div>
+               
+                <div class="result-row">
+                    <div class="output-grop">
+                        <label>Izmaksas gareniski:</label>
+                        <input type="text" id="costLong" readonly>
+                    
+                    </div>
+                    <div class="output-grop">
+                        <label>Šķērsām:</label>
+                        <input type="text" id="costCross" readonly>
+                    
+                    </div>
+                </div>
+                  
+                <div class="result-row">
+                    <div class="output-grop">
+                        <label>Atgriezumi gareniski:</label>
+                        <input type="text" id="wasteLong" readonly>
+                    
+                    </div>
+                    <div class="output-grop">
+                        <label>Šķērsām:</label>
+                        <input type="text" id="wasteCross" readonly>
+                    
+                    </div>
+                </div>
+                 
+                <div class="result-row">
+                    <div class="output-grop">
+                        <label>Atgriexumi gareniski izmaksas:</label>
+                        <input type="text" id="wasteCostLong" readonly>
+                    
+                    </div>
+                    <div class="output-grop">
+                        <label>Šķērsām:</label>
+                        <input type="text" id="wasteCostCross" readonly>
+                    
+                    </div>
+                </div>
+                
+                
+                    
+
 
             </div><!-- aizver rezultat konteiners-->
 
