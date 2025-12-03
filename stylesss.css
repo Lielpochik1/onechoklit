@@ -1,23 +1,23 @@
 body {
-    background-color:rgb(182, 184, 184);
+    background-color: rgb(207, 202, 202);
     justify-content: center;
     align-items: center;
     display: flex;
     font-family: Arial, sans-serif;
     height: 70vh;
-
 }
 
 .main-container {
-    background-color: #ffff;
+    background-color: #f4f4f4;
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 80%;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.9);
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
     padding: 20px;
 }
+
 .calc-container {
     display: flex;
     width: 100%;
@@ -25,64 +25,69 @@ body {
     background: #e3f2fd;
     padding: 20px;
     border-radius: 10px;
-
 }
+
 .input-container {
     width: 45%;
     display: flex;
     flex-direction: column;
-    background: #ffff;
+    background: #ffffff;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     align-items: center;
 }
-.input-group {
+
+.input-group, .output-group {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
     margin: 5px;
-
 }
-.button-group, .output-group {
+
+.button-group {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
+
 .result-container {
     width: 45%;
     background: #dff0d8;
     padding: 15px;
     border-radius: 10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-    text-align:center; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 input, button {
-    margin: 5px 0;
+    margin: 5px 0px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 button {
     width: 93%;
     background: #007bff;
     color: white;
     cursor: pointer;
-
 }
+
 .result-row {
     display: flex;
     justify-content: space-between;
-    width: 100px;
+    width: 100%;
     gap: 10px;
 }
+
 input {
     width: 90%;
-    padding: 9px;
-    border-radius: 5xp;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
     text-align: center;
 }
